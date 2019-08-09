@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="/static/css/style.css">
+	<link rel="stylesheet" href="/static/css/iconfont.css">
+	<link rel="stylesheet" href="/static/css/basic.css">
+	<script src="/static/js/demo.js"></script>
+</head>
+<body>
+	<header>
+		<div class="header_container">
+			<span class="question">问小云</span>
+			<span class="enter">登录ing</span>
+		</div>
+	</header>
+	<div class="welcome">
+		<div class="welcome_container">
+			<span>欢迎登录问小云 ！</span>
+		</div>
+	</div>
+	<div class="import">
+		<div class="import_container">
+			<div class="input" >
+				<form action="/index/" method="post">
+					<input name="username" type="text" placeholder="请输入学号" id="input1">
+					<input  name="password" type="password" placeholder="请输入密码(身份证号后六位)" style="margin-top: 80px;" id="input2" data-role = "none" type="password">
+					<a id="dj" class="tubiao" title="点击隐藏或显示密码"><span id="incon_eye" class="iconfont incon_eye">&#xe60b;</span></a>
+					<a href="Empt classroom.html"><button>登录</button></a>
+                    <div class="error btns login-form-tips" id="jsLoginTips">{{ msg }}</div>
+					<a href=""><span>忘记密码</span></a>
+				{% csrf_token %}
+                </form>
+			</div>
+			<div class="footer">
+				<span class="phone">有问题请联系: &nbsp 18234163278</span>
+				<span class="explain">说明</span>
+			</div>
+			<div class="bottom">
+				<a href="index.html"><span class="iconfont icon_bot1">&#xe771;</span></a>
+				<a href=""><span class="iconfont icon_bot">&#xe751;</span></a>
+				<a href=""><span class="iconfont icon_bot">&#xe615;</span></a>
+				<a href=""><span class="iconfont icon_bot">&#xe608;</span></a>
+				<a href=""><span class="iconfont icon_bot">&#xe61a;</span></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

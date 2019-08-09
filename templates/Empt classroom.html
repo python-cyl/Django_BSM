@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="{% static 'css/basic.css' %}">
+	<link rel="stylesheet" href="/static/css/iconfont.css">
+	<link rel="stylesheet" href="/static/css/style.css">
+	<script src="/static/js/demo2.js"></script>
+</head>
+<body>
+	<header>
+		<div class="header_container">
+			<span class="question">问小云</span>
+			<div class="menu" id="menu">
+				<span class="owner" >??? ∨</span>
+				<div class="triangle" id="tri"></div>
+				<ul id="ull">
+					<a href="/my_notifications/"><li value=""><span class="iconfont inc_men">&#xe51a;</span>消息管理</li></a>
+					<a href="/send_notification/"><li value=""><span class="iconfont inc_men">&#xe638;</span>发送消息</li></a>
+					<a href="log.html"><li value=""><span class="iconfont inc_men">&#xe627;</span>切换账号</li></a>
+					<a href="index.html"><li value=""><span class="iconfont inc_men">&#xe508;</span>退出</li></a>
+				</ul>
+			</div>
+		</div>
+		<div class="exa_title">
+			<div class="exa_title_container">
+				<span>空教室查询</span>
+			</div>
+		</div>
+	</header>
+	<div class="emp_main">
+		<div class="exa_title2"></div>
+		<div class="emp_main_container">
+			<div class="emp_information">
+				<span class="emp_time">2018-2019学年秋(两学期)</span>
+				<hr>
+				<ul>
+					<li><span>地点</span><span class="emp_details">明向校区 行远楼</span>  </li>
+					<li><span>周数</span><span class="emp_details">第三周</span> </li>
+					<li><span>时间</span><span class="emp_details">星期三 第2小节</span> </li>
+				</ul>
+				<form action="">
+					<button>去自习</button>
+				</form>
+			</div>
+			<div class="bottom" style="margin-top: 318px;">
+				<a href="home page.html"><span class="iconfont icon_bot1">&#xe771;</span></a>
+				<a href=""><span class="iconfont icon_bot">&#xe751;</span></a>
+				<a href=""><span class="iconfont icon_bot">&#xe615;</span></a>
+				<a href=""><span class="iconfont icon_bot">&#xe608;</span></a>
+				<a href=""><span class="iconfont icon_bot">&#xe61a;</span></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

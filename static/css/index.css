@@ -1,0 +1,140 @@
+body {
+	width: 1000px;
+	background: #f7f8fa;
+}
+
+.body_container {
+	width: 1200px;
+	margin: 0 auto
+}
+
+.header {
+	/*width: 100%;*/
+	height: 81px;
+	/*background: red;*/
+	line-height: 81px;
+}
+
+.logo {
+	width: 120px;
+	height: 80px;
+	background: blue;
+	float: left;
+}
+
+.header ul {
+	margin-left: 400px;
+}
+
+.header li {
+	float: left;
+	margin-left: 96px;
+}
+
+.more {
+	width: 25px;
+	height: 81px;
+	background: green;
+	float: right;
+}
+
+
+
+.info {
+	width: 1200px;
+	border-top: 4px solid #448aff;
+	margin-top: 80px;
+	background: #fff;
+	min-height: 1200px;
+}
+
+.info input {
+	width: 286px;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 140px;
+	font-size: 20px;
+	line-height: 40px;
+	outline: none;
+	padding-left: 10px;
+	float: left;
+	border: 1px solid #999
+}
+.info_header {
+	margin-top: 60px
+}
+
+.your_message {
+	font-size: 36px;
+	color: #999;
+	float: right;
+	margin-right: 90px;
+}
+
+
+
+
+.juti {
+	clear: both;
+	margin-top: 50px;
+}
+
+.juti ul {
+	padding-top: 50px; 
+	margin-left: 70px;
+}
+
+.juti ul li {
+	margin-left: 100px;
+	font-size: 22px;
+	padding-bottom: 15px;
+	float: left;
+}
+
+.juti a{
+	color: #999
+}
+
+.juti a:first-child{
+	color: #5280ff;	
+}
+
+.juti2 {
+	/*margin-top: 55px;*/
+	padding-left: 130px;
+}
+
+.xiangqing {
+	/*height: 125px;*/
+	margin-top: 70px;
+	line-height: 30px;
+}
+
+.touxiang {
+	width: 62px;
+	height: 62px;
+	border-radius: 50%;
+	background: #999;
+	float: left;
+}
+
+.title {
+	/*clear: both;*/
+	font-size: 18px;
+	margin-left: 100px;
+	/*float: lef[t;*/
+}
+
+.jutia {
+	/*float: left;*/
+	/*clear: both;*/
+	font-size: 14px;
+	color: #999;
+	margin-left: 100px;
+}
+
+.time {
+	float: right;
+	margin-right: 130px;
+	color: #999
+}

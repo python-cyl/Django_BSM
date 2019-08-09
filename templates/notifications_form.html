@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="utf-8">
+    {% load bootstrap3 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    {% bootstrap_messages %}
+</head>
+<body>
+
+<form method="post">
+
+    <lable for="id">收件人</lable>
+    <input id="id" type="text">
+    <lable for="content">对话框</lable>
+    <input id="content" type="text">
+    <a class="btn btn-primary" href="{% url 'send_notification' %}">发送</a>
+    
+</form>
+
+</body>
+</html>
